@@ -1,0 +1,33 @@
+.header {
+    height: 90px;
+    @include flex(row, center, space-between, 0px);
+    font-family: $main-font;
+    font-size: 24px;
+    position: fixed;
+    padding: 0px 20px;
+    backdrop-filter: blur(10px) saturate(150%);
+    width: 100%;
+
+    &__logo {
+        order: -1;
+        background-image: url(../../assets/icons/logo.svg);
+        height: 100%;
+        width: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto 90%;
+    }
+
+    &__item:first-child {
+        order: -2;
+    }
+
+    &__link {
+        color: #000459;
+        font-size: 30px;
+    }
+
+    &__link--active {
+        border-bottom: 3px solid #000459;
+    }
+}

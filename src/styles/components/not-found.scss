@@ -1,0 +1,4 @@
+.not-found {
+    @include flex(row, center, center, 0px);
+    height: 100vh;
+}

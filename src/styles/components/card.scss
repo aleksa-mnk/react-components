@@ -1,0 +1,49 @@
+.character-card {
+    background-color: #c8ffbc3f;
+    border-radius: 5px;
+    @include flex(column, center, space-between, 30px);
+    line-height: 28px;
+    box-shadow: 0px 0px 25px 5px #4040405c, inset 10000px 100px 100px rgba(255, 255, 255, 0.77);
+    transition: 0.2s;
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 25px 5px #1d1d1d9d, inset 10000px 100px 100px rgba(255, 255, 255, 0.77);
+    }
+
+    &__img {
+        height: 250px;
+        margin: 0 auto;
+    }
+
+    &__name {
+        font-family: $main-font;
+        font-size: 28px;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+        color: #002546;
+        margin: 13px;
+    }
+
+    &__description {
+        @include flex(column, center, space-between, 20px);
+        font-family: $main-font;
+        font-size: 20px;
+        width: 100%;
+    }
+    .character-description {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        border-radius: 0px 0px 5px 5px;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+.card-list {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 25px;
+}

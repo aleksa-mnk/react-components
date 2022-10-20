@@ -1,4 +1,7 @@
 .not-found {
     @include flex(row, center, center, 0px);
-    height: 100vh;
+    flex-grow: 1;
+    img {
+        height: 450px;
+    }
 }

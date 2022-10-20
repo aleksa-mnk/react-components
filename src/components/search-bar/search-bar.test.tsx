@@ -1,7 +1,7 @@
 import React from 'react';
 import '@testing-library/jest-dom';
 import { screen } from '@testing-library/react';
-import { renderWithRouter } from '../../utils/test-utils';
+import { renderWithRouter } from '../../core/utils/test-utils';
 import SearchBar from './search-bar';
 import userEvent from '@testing-library/user-event';
 

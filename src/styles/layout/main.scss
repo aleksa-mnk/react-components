@@ -3,6 +3,13 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
     padding: 120px 0px 50px;
+    flex-grow: 1;
+    @include flex(column, center, center, 0px);
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }

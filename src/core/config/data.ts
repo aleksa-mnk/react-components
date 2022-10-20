@@ -58,7 +58,7 @@ export const cardData = [
     birthday: 'November 30, 1942',
     location: 'Bikini Bottom',
     image:
-      'https://kartinkin.net/uploads/posts/2022-03/1647986101_65-kartinkin-net-p-kartinki-planktona-73.png',
+      'https://www.pinclipart.com/picdir/big/546-5462802_plankton-spongebob-drawings-easy-plankton-cartoon-spongebob-squarepants.png',
     voice: 'Mr. Lawrence',
     id: 7,
   },

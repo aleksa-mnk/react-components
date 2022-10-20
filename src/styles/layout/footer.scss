@@ -1,0 +1,29 @@
+.footer {
+    height: 80px;
+    background-image: url(../../assets/img/bg.jpg);
+    background-size: cover;
+    background-blend-mode: hard-light;
+    @include flex(row, center, space-between, 10px);
+    font-family: $main-font;
+    font-size: 16px;
+    padding: 0px 20px;
+    &__git {
+        @include flex(row, center, space-between, 10px);
+        &--img {
+            height: 30px;
+        }
+    }
+    &__rs {
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .footer {
+      height: 120px;
+      @include flex(column, center, center, 10px);
+      &__href {
+        order: -1;
+        }
+    }
+}

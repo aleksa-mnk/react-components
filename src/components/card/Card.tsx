@@ -1,5 +1,5 @@
 import React from 'react';
-import CardComponentProps from 'types/types';
+import CardComponentProps from '../../core/types/types';
 
 class Card extends React.Component<CardComponentProps> {
   render() {

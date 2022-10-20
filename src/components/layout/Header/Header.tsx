@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { navData } from '../../config/route';
+import { navData } from '../../../core/config/route';
 
 class Header extends React.Component {
   render() {
